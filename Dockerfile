@@ -22,4 +22,4 @@ WORKDIR /tmp/deb-s3
 RUN git checkout 67c2e65bc94426370137a284001f636ff708b102 && bundle install
 
 ENTRYPOINT ["deb-s3"]
-CMD
+CMD ["help"]
